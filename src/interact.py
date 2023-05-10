@@ -12,7 +12,7 @@ if __name__ == '__main__':
             data_type = 'aspec'
         case _:
             data_type = 'jesc'
-    print('you choosed', data_type)
+    print('You chose', data_type)
     
     model_type = input('Please choose the type of the model.\n0 for encode and 1 for kana: ')
     match model_type:
@@ -22,7 +22,7 @@ if __name__ == '__main__':
             model_type = 'kana'
         case _:
             model_type = 'encode'
-    print('you choosed', model_type)
+    print('You chose', model_type)
 
     pt_path = f'model/{data_type}_{model_type}/model.pt'
     dict_path = f'model/{data_type}_{model_type}'

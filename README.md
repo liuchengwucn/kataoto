@@ -25,10 +25,10 @@ To explore our models in an interactive way, try `interact.py`. Enter a blank li
     $ python src/interact.py
     Please choose the type of the dataset.
     0 for jesc and 1 for aspec: 0 
-    you choosed jesc
+    You chose jesc
     Please choose the type of the model.
     0 for encode and 1 for kana: 0
-    you choosed encode
+    You chose encode
     ...
     2023-05-10 08:58:09 | INFO | fairseq_cli.interactive | Type the input sentence and press return:
     日本語お上手ですね
