@@ -13,14 +13,14 @@ To install prerequisites, run the following command.
     pip install - r requirements.txt
     python -m unidic download
     
-To get your hands dirty with some encoding and decoding examples, try `example.py`. Enter a blank line to exit.
+To get your hands dirty with some encoding and decoding examples, try `example.py`.
 
     $ python src/example.py
     original:  吾輩は猫である。名前はまだ無い。
     encoded:  #わがはい<bixj kcfk>は#ねこ<qmek>である。#なまえ<rsj uaqk>はまだ#ない<maeu い>。
     decoded:  吾輩は猫である。名前はまだ無い。
 
-To explore our models in an interactive way, try `interact.py`.
+To explore our models in an interactive way, try `interact.py`. Enter a blank line to exit.
 
     $ python src/interact.py
     Please choose the type of the dataset.
