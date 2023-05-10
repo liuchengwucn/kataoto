@@ -10,7 +10,7 @@ issueを英語で書く必要はありません。
 
 To install prerequisites, run the following command.
 
-    pip install - r requirements.txt
+    pip install -r requirements.txt
     python -m unidic download
     
 To get your hands dirty with some encoding and decoding examples, try `example.py`.
