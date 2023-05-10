@@ -2,7 +2,7 @@
 
 kataoto stands for 音 (oto, vocal information or phonetic information) and 形 (katachi, visual information or glyphic information).
 
-This is a repository offering model checkpoints and codes related to the encoding and decoding process of the paper "*Japanese Sub-Character Tokenization Utilizing both Vocal and Visual Information*".
+This is a repository offering model checkpoints and codes related to the encoding and decoding process described in the paper "*Japanese Sub-Character Tokenization Utilizing both Vocal and Visual Information*".
 The paper proposed a sub-character tokenization algorithm which helps neural models understand Japanese text in a more natural way.
 
 issueを英語で書く必要はありません。  
