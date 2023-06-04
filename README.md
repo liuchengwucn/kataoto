@@ -26,8 +26,27 @@ Enter a blank line to exit.
     original: 
     Goodbye!
 
-To explore our models in an interactive way, try `interact.py`.
-Enter a blank line to exit.
+To explore our models in an interactive way, download the model checkpoints in advance and extract them to the folder `model/`.
+After extracting, the project folder should be something like this.
+
+    kataoto
+    ├── LICENSE
+    ├── README.md
+    ├── data
+    ├── model
+    │   ├── aspec_encode
+    │   │   ├── bpecodes.en
+    │   │   ├── bpecodes.ja
+    │   │   ├── dict.en.txt
+    │   │   ├── dict.ja.txt
+    │   │   └── model.pt
+    │   ├── aspec_kana
+    │   ├── jesc_encode
+    │   └── jesc_kana
+    ├── requirements.txt
+    └── src
+
+Then try `interact.py`. Enter a blank line to exit.
 
     $ python src/interact.py
     Please choose the type of the dataset.
